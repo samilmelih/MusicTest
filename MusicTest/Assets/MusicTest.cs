@@ -8,8 +8,8 @@ public class MusicTest : MonoBehaviour
 	AudioClip[] audioClips;
 	Composer composer;
 
-	float cooldownTime = 1f;
-	float cooldown = 1f;
+	float cooldownTime = 0.5f;
+	float cooldown = 0.5f;
 	bool isPlaying;
 
 	// Use this for initialization
