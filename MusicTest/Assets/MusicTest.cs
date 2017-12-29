@@ -48,7 +48,7 @@ public class MusicTest : MonoBehaviour
 			int nextMelody = composer.NextMelody();
 			audioSource.PlayOneShot(audioClips[nextMelody], 1f);
 
-			isPlaying = true;
+			//isPlaying = true;
 		}
 	}
 }
